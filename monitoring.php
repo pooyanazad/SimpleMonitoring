@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body style="background-color:powderblue;">
+ <meta http-equiv="refresh" content="15">
 
 <center>
 <h1>Server performance monitoring</h1>
