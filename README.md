@@ -7,11 +7,11 @@
 sudo su - <br />
 apt update <br />
 apt upgrade -y <br />
-To install webservice with php :  <br />
-sudo apt install tasksel -y <br />
-sudo tasksel install lamp-server <br />
-To install monitoring boxes : <br />
-sudo apt install boxes <br />
+#To install webservice with php :  <br />
+apt install tasksel -y <br />
+tasksel install lamp-server <br />
+#To install monitoring boxes : <br />
+apt install boxes <br />
 rm var/www/html/* <br />
 mv bash_script.sh monitoring.php index.php /var/www/html/ <br />
 chmod +x bash_script.sh <br />
