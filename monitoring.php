@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-#css / going center and cahnge bg color
+<!-- css / going center and cahnge bg color -->
 <body style="background-color:powderblue;">
  <meta http-equiv="refresh" content="15">
 
