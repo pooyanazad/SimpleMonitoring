@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<! –– CSS background and button configuration -->
 <body style="background-color:powderblue;">
 <style>
 .button {
@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 </style>
-
+<! –– button action -->
 <center>
 <h1>Click here to see monitoring dashboard</h1>
 <button type="button" class="button" onclick="window.location.href = 'http://<?php echo $_SERVER['HTTP_HOST']; ?>/monitoring.php';">Click Me!</button>
