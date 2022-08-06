@@ -11,12 +11,14 @@ apt upgrade -y <br />
 #To install webservice with php :  <br />
 apt install tasksel -y <br />
 tasksel install lamp-server <br />
+apt install sysstat <br />
 <br />
 #To install monitoring boxes : <br />
 apt install boxes <br />
-rm var/www/html/* <br />
-mv bash_script.sh monitoring.php index.php /var/www/html/ <br />
+rm -r /var/www/html/* <br />
 chmod +x bash_script.sh <br />
+mv bash_script.sh monitoring.php index.php /var/www/html/ <br />
+
 <br />
 ![monitoring](https://user-images.githubusercontent.com/20085529/163727358-adae0daf-89c4-4bd2-ae69-d0be2520f04d.jpg)
 
