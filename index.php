@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- CSS background and button configuration -->
+<!-- CSS background and button configuration below -->
 <body style="background-color:powderblue;">
 <style>
 .button {
