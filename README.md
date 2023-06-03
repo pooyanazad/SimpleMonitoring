@@ -2,8 +2,7 @@
 ***Its a simple server monitoring app with php and bash script***
 
 
-
-***(run all of this commnds with root privilege)*** <br />
+***(run all of this commnds with root user)*** <br />
 sudo su - <br />
 apt update <br />
 apt upgrade -y <br />
