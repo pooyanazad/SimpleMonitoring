@@ -23,7 +23,7 @@ mv bash_script.sh monitoring.php index.php /var/www/html/ <br />
 
 <br />
 <br />
-***If you cant see the resault on http://localhost (you server ip)*** <br />
+***If you cant see the resault on http://localhost (you server ip)***
 <br />
 Firewall: <br />
 In ubuntu you can use ufw <br />
