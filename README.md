@@ -19,13 +19,12 @@ chmod +x bash_script.sh <br />
 mv bash_script.sh monitoring.php index.php /var/www/html/ <br />
 
 <br />
-![monitoring](https://user-images.githubusercontent.com/20085529/163727358-adae0daf-89c4-4bd2-ae69-d0be2520f04d.jpg)
-
+![Monitoring](https://user-images.githubusercontent.com/20085529/163727358-adae0daf-89c4-4bd2-ae69-d0be2520f04d.jpg)
 <br />
 <br />
 If you cant see the resault on http://localhost (you server ip)
 <br />
-please edit firewall: <br />
+Edit firewall: <br />
 In ubuntu you can use ufw <br />
 ufw enable <br />
 ufw status <br />
