@@ -25,7 +25,7 @@ mv bash_script.sh monitoring.php index.php /var/www/html/ <br />
 <br />
 If you cant see the resault on http://localhost (you server ip)
 <br />
-Firewall: <br />
+please edit firewall: <br />
 In ubuntu you can use ufw <br />
 ufw enable <br />
 ufw status <br />
