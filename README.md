@@ -7,13 +7,13 @@ Its a simple web base server monitoring app with php and bash script<br />
 sudo su - 
 apt update && apt upgrade -y
 ```
-#To install webservice with php :  <br />
+To install webservice with php :  <br />
 ```bash
 apt install tasksel -y
 tasksel install lamp-server
 apt install sysstat
 ```
-#To install monitoring boxes : <br />
+To install monitoring boxes : <br />
 ```bash
 apt install boxes
 rm -r /var/www/html/*
