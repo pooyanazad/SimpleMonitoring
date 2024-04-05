@@ -5,8 +5,7 @@
 ***(run all of this commnds with root user)*** <br />
 ```bash
 sudo su - 
-apt update
-apt upgrade -y
+apt update && apt upgrade -y
 ```
 #To install webservice with php :  <br />
 ```bash
