@@ -1,5 +1,5 @@
 # SimpleMonitoring
-***Its a simple server monitoring app with php and bash script***
+Its a simple web base server monitoring app with php and bash script<br />
 
 
 ***(run all of this commnds with root user)*** <br />
