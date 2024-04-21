@@ -1,31 +1,22 @@
 # SimpleMonitoring
 Its a simple web base server monitoring app with php and bash script<br />
-
-
-***(run all of this commnds with root user)*** <br />
+clone the session:<br />
 ```bash
-sudo su - 
-apt update && apt upgrade -y
+git clone https://github.com/pooyanazad/SimpleMonitoring.git
 ```
-To install webservice with php :  <br />
+Pull image:<br />
 ```bash
-apt install tasksel -y
-tasksel install lamp-server
-apt install sysstat
+docker pull yourusername/my-php-monitoring-app:latest
 ```
-To install monitoring boxes : <br />
+Run container: <br />
 ```bash
-apt install boxes
-rm -r /var/www/html/*
-chmod +x bash_script.sh
-mv bash_script.sh monitoring.php index.php /var/www/html/
+docker run -p 8080:80 -d yourusername/my-php-monitoring-app:latest
 ```
+You can reach the app on your IP:8080<br />
+<br />
 ![Monitoring](https://user-images.githubusercontent.com/20085529/163727358-adae0daf-89c4-4bd2-ae69-d0be2520f04d.jpg)
 <br />
-<br />
-If you cant see the resault on http://localhost (you server ip)
-<br />
-Edit firewall: <br />
+Edit firewall if needed: <br />
 In ubuntu you can use ufw <br />
 ```bash
 ufw enable
@@ -33,4 +24,3 @@ ufw status
 ufw allow http
 ufw status
 ```
-If you had any problem can contact me: pooyan.azadparvar@gmail.com
